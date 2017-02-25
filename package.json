@@ -1,0 +1,23 @@
+{
+  "name": "default-project",
+  "version": "1.0.0",
+  "description": "Change me, plz...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tWind/default-project-gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/tWind/default-project-gulp",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-task-loader": "^1.4.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-connect": "^5.0.0",
+    "susy": "^2.2.12"
+  }
+}
