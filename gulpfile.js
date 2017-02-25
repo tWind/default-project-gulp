@@ -17,6 +17,7 @@ require('gulp-task-loader')({
 
 gulp.task('default', function() {
     gulp.start([
+        'styles:sass',
         'connect'
     ]);
 });
