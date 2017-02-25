@@ -4,7 +4,8 @@
 
 var project = {
     name: "default",
-    app: './public'
+    app: './public',
+    blocks: './public/blocks'
 };
 var gulp = require('gulp');
 
@@ -18,6 +19,9 @@ require('gulp-task-loader')({
 gulp.task('default', function() {
     gulp.start([
         'styles:sass',
-        'connect'
+        'scripts:base',
+        'scripts:run',
+        'connect',
+        'watch'
     ]);
 });

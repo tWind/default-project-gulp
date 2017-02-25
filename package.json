@@ -19,6 +19,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^2.2.0",
     "gulp-connect": "^5.0.0",
+    "gulp-concat": "^2.6.0",
     "susy": "^2.2.12"
   }
 }

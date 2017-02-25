@@ -10,3 +10,10 @@
     "gulp-sourcemaps": "^2.2.0",
     "gulp-connect": "^5.0.0",
     "susy": "^2.2.12"
+
+# start
+Windows
+cd project_root
+npm install
+mklink /d dist public\dist
+gulp
