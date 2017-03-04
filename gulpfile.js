@@ -5,7 +5,9 @@
 var project = {
     name: "default",
     app: './public',
-    blocks: './public/blocks'
+    blocks: './public/blocks',
+    templates: './templates',
+    htmlBuildDir: './html-build'
 };
 var gulp = require('gulp');
 
@@ -21,6 +23,7 @@ gulp.task('default', function() {
         'styles:sass',
         'scripts:base',
         'scripts:run',
+        'html:build',
         'connect',
         'watch'
     ]);
