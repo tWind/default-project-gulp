@@ -12,7 +12,7 @@ var project = {
 var gulp = require('gulp');
 
 
-require('gulp-task-loader')({
+require('gulp-task-loader')( {
     dir: 'gulp',
     project: project
 });

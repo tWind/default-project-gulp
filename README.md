@@ -25,5 +25,8 @@
     [ ] "gulp-sourcemaps": "^2.2.0",
     [ ] "gulp-task-loader": "^1.4.4",
     [ ] "susy": "^2.2.12"
+
+    - добавить версию b-item
+    - добавить base.html
     
 
