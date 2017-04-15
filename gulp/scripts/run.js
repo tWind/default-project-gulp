@@ -5,7 +5,7 @@ module.exports = function() {
     var concat = require('gulp-concat');
 
     gulp.task('scripts:run', function() {
-        return gulp.src(project.app + "/blocks/**/*.js" )
+        return gulp.src([project.app + "/js/*.js", project.app + "/blocks/**/*.js"])
             .pipe(concat(project.name + "-run.js"))
             .pipe(gulp.dest(project.app + "/dist/js"));
     });

@@ -3,7 +3,12 @@ module.exports = function() {
     var project = this.opts.project;
 
     gulp.watch(project.app + '/**/*.scss', ['styles:sass']);
-    gulp.watch(project.blocks + '/**/*.js', ['scripts:run']);
+    gulp.watch(
+        [
+            project.blocks + '/**/*.js',
+            project.app + '/js/*.js'
+        ],
+        ['scripts:run']);
     gulp.watch([project.templates + '/*.html', project.blocks + '/**/*.html'], ['html:build']);
 
     // Globs beginning with "./" doesn't trigger file events :cc
